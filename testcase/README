@@ -1,0 +1,2 @@
+Try with changing "babel-preset-react-native": "^4.0.1" or "babel-preset-react-native": "5.0.0"
+Then run "yarn test"

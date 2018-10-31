@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 20,
+        "margin": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to React Native!
+  </Text>
+  <Text
+    style={
+      Object {
+        "color": "#333333",
+        "marginBottom": 5,
+        "textAlign": "center",
+      }
+    }
+  >
+    This is a React Native snapshot test.
+  </Text>
+</View>
+`;
+
+exports[`renders login correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "justifyContent": "center",
+      "margin": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "marginBottom": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+        }
+      }
+    >
+      Username:
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Email or Username"
+      style={
+        Object {
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 50,
+          "padding": 3,
+          "width": 710,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "marginBottom": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 18,
+        }
+      }
+    >
+      Password:
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Password"
+      style={
+        Object {
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 50,
+          "padding": 3,
+          "width": 710,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "grey",
+        "borderRadius": 5,
+        "height": 50,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={null}
+    >
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 16,
+          }
+        }
+      >
+        SUBMIT
+      </Text>
+    </View>
+  </View>
+</View>
+`;
